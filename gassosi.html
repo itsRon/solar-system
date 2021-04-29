@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Sistema Solare | pianeti gassosi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>    <!-- Header del sito -->
+        <div class="left-menu" id="menu">   <!-- Menu a comparsa -->
+            <ul>
+                <li><a href="rocciosi.html#mercurio">
+                    <img src="./immagini/mercurio.png">
+                    <h3>Mercurio</h3>
+                </a></li>
+                <li><a href="rocciosi.html#venere">
+                    <img src="./immagini/venere.png">
+                    <h3>Venere</h3>
+                </a></li>
+                <li><a href="rocciosi.html#terra">
+                    <img src="./immagini/terra.png">
+                    <h3>Terra</h3>
+                </a></li>
+                <li><a href="rocciosi.html#marte">
+                    <img src="./immagini/marte.png">
+                    <h3>Marte</h3>
+                </a></li>
+                <li><a href="gassosi.html#giove">
+                    <img src="./immagini/giove.png">
+                    <h3>Giove</h3>
+                </a></li>
+                <li><a href="gassosi.html#saturno">
+                    <img src="./immagini/saturno.png">
+                    <h3>Saturno</h3>
+                </a></li>
+                <li><a href="gassosi.html#urano">
+                    <img src="./immagini/urano.png">
+                    <h3>Urano</h3>
+                </a></li>
+                <li><a href="gassosi.html#nettuno">
+                    <img src="./immagini/nettuno.png">
+                    <h3>Nettuno</h3>
+                </a></li>
+                <li><a href="index.html">
+                    <img src="./immagini/home.png" style="width: auto;">
+                    <h3>Homepage</h3>
+                </a></li>
+            </ul>
+            <button onclick="toggleMenu()" class="close-button">    <!-- Bottone di chiusura del menu a comparsa -->
+                <span></span>
+                <span></span>
+            </button> 
+        </div>
+
+        <button class="menu-button" onclick="toggleMenu()"> <!-- Bottone di apertura del menu a comparsa -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="landing-text">
+        <h1 class="landing-title">i Pianeti Gassosi</h1>
+        <p class="landing-paragraph">
+            Gigante gassoso (denominato anche pianeta gioviano) è un 
+            termine astronomico generico, inventato dallo scrittore di 
+            fantascienza James Blish e ormai entrato nell'uso comune, per 
+            descrivere un grosso pianeta che non sia composto 
+            prevalentemente da roccia. I giganti gassosi, in realtà, possono 
+            avere un nucleo roccioso, ed effettivamente si sospetta che un 
+            tale nucleo sia necessario per la loro formazione. La maggior 
+            parte della loro massa è tuttavia presente sotto forma di gas 
+            (oppure gas compresso in uno stato liquido). A differenza dei 
+            pianeti rocciosi, i giganti gassosi non hanno una superficie 
+            ben definita.
+        </p>
+        <a href="#giove" class="default-link-button">Scorri per tutte le informazioni</a>
+    </div>
+
+    <img src="./immagini/gassosi.png" alt="Errore: l'immagine non può essere caricata" class="landing-image">
+
+    <section class="planets-container">
+        <a name="giove-link" id="giove"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/giove.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Giove</h3>
+                <p>
+                    Giove (dal latino Iovem, accusativo di Iuppiter) è il quinto pianeta del sistema solare in ordine di 
+                    distanza dal Sole e il più grande di tutto il sistema planetario: la sua massa corrisponde a due volte e 
+                    mezzo la somma di quelle di tutti gli altri pianeti messi insieme. È classificato, al pari di Saturno, 
+                    Urano e Nettuno, come gigante gassoso.
+                    Giove ha una composizione simile a quella del Sole: infatti è costituito principalmente da idrogeno ed 
+                    elio con piccole quantità di altri composti, quali ammoniaca, metano ed acqua. Si ritiene che il 
+                    pianeta possegga una struttura pluristratificata, con un nucleo solido, presumibilmente di natura 
+                    rocciosa e costituito da carbonio e silicati di ferro, sopra il quale gravano un mantello di idrogeno 
+                    metallico ed una vasta copertura atmosferica che esercitano su di esso altissime pressioni.
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th>5,202 au</th> </tr>
+                    <tr> <td>Massa</td> <th>1,89819 &#x2219; 10<sup>27</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>71.492 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>1.326 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>23,12 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>11,863 anni</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>9 h 55 min 29,685 s</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>−121 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>1.000 - 2.000.000 bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>79</th> </tr>
+                </table>
+            </div>
+        </div>
+
+        <a name="saturno-link" id="saturno"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/saturno.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Saturno</h3>
+                <p>
+                    Saturno è il sesto pianeta del sistema solare in ordine di distanza dal Sole e il secondo pianeta più 
+                    massiccio dopo Giove. Con un raggio medio 9,48 volte quello della Terra e una massa 95 volte 
+                    superiore a quella terrestre Saturno, con Giove, Urano e Nettuno, è classificato come gigante gassoso. 
+                    Il nome deriva dall'omonimo dio della mitologia romana, omologo del titano greco Crono. Il suo 
+                    simbolo astronomico è una rappresentazione stilizzata della falce del dio dell'agricoltura e dello 
+                    scorrere del tempo (in greco, Κρόνος).
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th>9,279 au</th> </tr>
+                    <tr> <td>Massa</td> <th>5,6834 &#x2219; 10<sup>26</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>60.268 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>687 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>8,96 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>29,45 anni</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>10 h 33 min 38 s</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>−130 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>1,4 bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>82</th> </tr>
+                </table>
+            </div>
+        </div>
+
+        <a name="urano-link" id="urano"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/urano.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Urano</h3>
+                <p>
+                    Urano è il settimo pianeta del sistema solare in ordine di distanza dal Sole, il terzo per diametro e il 
+                    quarto per massa. Porta il nome del dio greco del cielo Urano (Οὐρανός in greco antico), padre di 
+                    Crono (Saturno), a sua volta padre di Zeus (Giove).
+                    Sebbene sia visibile anche a occhio nudo, come gli altri cinque pianeti noti fin dall'antichità, fino al 
+                    XVIII secolo non fu riconosciuto come tale e considerato una stella a causa della sua bassa luminosità 
+                    e della sua orbita particolarmente lenta e venne identificato come qualcosa di diverso da una stella 
+                    soltanto il 13 marzo 1781 da William Herschel. Una curiosità riguardo alla sua scoperta è che essa 
+                    giunse del tutto inaspettata: i pianeti visibili a occhio nudo (fino a Saturno) erano conosciuti da 
+                    millenni e nessuno sospettava l'esistenza di altri pianeti, fino alla scoperta di Herschel, che notò che 
+                    una particolare stella poco luminosa sembrava spostarsi. Da quel momento in poi nessuno fu più 
+                    sicuro del reale numero di pianeti del nostro sistema solare.
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th>19 au</th> </tr>
+                    <tr> <td>Massa</td> <th>86,813 &#x2219; 10<sup>24</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>25559 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>1271 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>8,69 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>84,011 anni</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>17 h 14 min 24 s</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>-205 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>0,012 bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>27</th> </tr>
+                </table>
+            </div>
+        </div>
+
+        <a name="nettuno-link" id="nettuno"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/nettuno.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Nettuno</h3>
+                <p>
+                    Nettuno è l'ottavo e più lontano pianeta del Sistema solare partendo dal Sole. Si tratta del quarto 
+                    pianeta più grande, considerando il suo diametro, e il terzo se si considera la sua massa. Nettuno ha 
+                    17 volte la massa della Terra ed è leggermente più massiccio del suo quasi-gemello Urano, la cui 
+                    massa è uguale a 15 masse terrestri, ma è meno denso rispetto a Nettuno. Il nome del pianeta è 
+                    dedicato al dio romano del mare (Nettuno); il suo simbolo è ♆ (Simbolo astronomico di Nettuno), una 
+                    versione stilizzata del tridente di Nettuno.
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th>30,06 au</th> </tr>
+                    <tr> <td>Massa</td> <th>1,0243 &#x2219; 10<sup>26</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>24.764 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>1638 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>11,15 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>164,88 anni</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>16 h 6 min 36 s</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>−220 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>202.650 bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>14</th> </tr>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="footer">    <!-- Footer contenente le mie informazioni -->
+        <div class="footer-left">
+            <p class="footer-label">NOME</p>
+            <h3>Andrea Artuso 2FIN</h3>
+        </div>
+
+        <div class="footer-center">
+            <p class="footer-label">ANNO SCOLASTICO</p>
+            <h3>2020/2021</h3>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-label">PROGETTO</p>
+            <h3>"il mio sito" in HTML</h3>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    let menu = document.getElementById('menu');
+    function toggleMenu(){
+        menu.classList.toggle('menu-open');
+    }
+</script>
+</html>

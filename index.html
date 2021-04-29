@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Sistema Solare</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>    <!-- Header del sito -->
+        <div class="left-menu" id="menu">   <!-- Menu a comparsa -->
+            <ul>
+                <li><a href="rocciosi.html#mercurio">
+                    <img src="./immagini/mercurio.png">
+                    <h3>Mercurio</h3>
+                </a></li>
+                <li><a href="rocciosi.html#venere">
+                    <img src="./immagini/venere.png">
+                    <h3>Venere</h3>
+                </a></li>
+                <li><a href="rocciosi.html#terra">
+                    <img src="./immagini/terra.png">
+                    <h3>Terra</h3>
+                </a></li>
+                <li><a href="rocciosi.html#marte">
+                    <img src="./immagini/marte.png">
+                    <h3>Marte</h3>
+                </a></li>
+                <li><a href="gassosi.html#giove">
+                    <img src="./immagini/giove.png">
+                    <h3>Giove</h3>
+                </a></li>
+                <li><a href="gassosi.html#saturno">
+                    <img src="./immagini/saturno.png">
+                    <h3>Saturno</h3>
+                </a></li>
+                <li><a href="gassosi.html#urano">
+                    <img src="./immagini/urano.png">
+                    <h3>Urano</h3>
+                </a></li>
+                <li><a href="gassosi.html#nettuno">
+                    <img src="./immagini/nettuno.png">
+                    <h3>Nettuno</h3>
+                </a></li>
+                <li><a href="index.html">
+                    <img src="./immagini/home.png" style="width: auto;">
+                    <h3>Homepage</h3>
+                </a></li>
+            </ul>
+            <button onclick="toggleMenu()" class="close-button">    <!-- Bottone di chiusura del menu a comparsa -->
+                <span></span>
+                <span></span>
+            </button> 
+        </div>
+
+        <button class="menu-button" onclick="toggleMenu()"> <!-- Bottone di apertura del menu a comparsa -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="landing-text">
+        <h1 class="landing-title">il Sistema Solare</h1>
+        <p class="landing-paragraph">
+            Il sistema solare è un sistema planetario costituito da una varietà di corpi celesti 
+            mantenuti in orbita dalla forza gravitazionale del Sole, cui appartiene anche la Terra: 
+            con un diametro di circa 120-130 UA (se inteso come la zona dello spazio che è 
+            sottoposta al vento solare, tralasciando l'immensa zona sottoposta alla sola gravità 
+            solare) è situato nel braccio di Orione della Via Lattea, orbitando attorno al centro 
+            galattico ad una distanza di 30000 al ed una velocità di 230 km/s; si stima che il 
+            sistema solare impieghi circa 230 milioni di anni per completare un giro attorno al 
+            centro galattico.    
+        </p>
+        <a href="#planets" class="default-link-button">Scopri tutti i pianeti</a>
+    </div>
+
+    <img src="./immagini/default.png" alt="Errore: l'immagine non può essere caricata" class="landing-image">
+
+
+    <section class="content-right">
+        <div class="content-image-container">
+            <img src="./immagini/sistemaSolare1.png" alt="Errore: l'immagine non può essere caricata">
+        </div>
+        <div>
+            <p>
+                Costituito dal Sole, che da solo possiede il 99,86% della massa di tutto il sistema, e da 
+                otto pianeti (quattro pianeti rocciosi interni e quattro giganti gassosi esterni) e cinque 
+                pianeti nani, dai rispettivi satelliti naturali, e da moltissimi altri corpi minori, 
+                quest'ultima categoria comprende gli asteroidi, in gran parte ripartiti fra due cinture 
+                asteroidali (la fascia principale e la fascia di Kuiper), le comete (prevalentemente 
+                situate nell'ipotetica nube di Oort), i meteoroidi e la polvere interplanetaria.
+                In ordine di distanza dal Sole, gli otto pianeti sono: Mercurio, Venere, Terra, Marte, 
+                Giove, Saturno, Urano e Nettuno; i cinque pianeti nani sono: Cerere, situato nella 
+                fascia principale degli asteroidi, Plutone, Haumea, Makemake, e Eris. Il vento solare, 
+                un flusso di plasma generato dall'espansione continua della corona solare, permea 
+                l'intero sistema solare, creando una bolla nel mezzo interstellare conosciuta come 
+                eliosfera, che si estende fino oltre alla metà del disco diffuso.
+            </p>
+        </div>
+    </section>
+
+    <a name="planets" id="planets"></a>
+
+    <section class="content-block" id="planets1">
+        <h2>i Pianeti rocciosi</h2>
+        <p>
+            Un pianeta terrestre (detto anche pianeta roccioso o pianeta 
+            tellurico) è un pianeta composto perlopiù da roccia e metalli. Il 
+            termine deriva direttamente dal nome del nostro pianeta, 
+            Terra, ed è stato adottato per indicare i pianeti del sistema 
+            solare interno in contrapposizione ai pianeti del sistema solare 
+            esterno detti giganti gassosi o (pianeti gassosi), che invece 
+            sono pianeti privi di una superficie solida, composti da una 
+            combinazione di idrogeno, elio e acqua in varie combinazioni 
+            di gas e liquido. 
+        </p>
+        
+        <div class="inline-planets">
+            <img src="./immagini/mercurio.png" alt="Errore: l'immagine non può essere caricata" width="180px" title="Mercurio">
+            <img src="./immagini/venere.png" alt="Errore: l'immagine non può essere caricata" width="405px" title="Venere">
+            <img src="./immagini/terra.png" alt="Errore: l'immagine non può essere caricata" width="auto" title="Terra">
+            <img src="./immagini/marte.png" alt="Errore: l'immagine non può essere caricata" width="225px" title="Marte">
+        </div>
+
+        <div class="section-center-button">
+            <a href="rocciosi.html" class="default-link-button">Leggi di più su ogni pianeta</a>
+        </div>
+    </section>
+
+    <section class="content-block">
+        <h2>i Pianeti gassosi</h2>
+        <p>
+            Gigante gassoso (denominato anche pianeta gioviano) è un 
+            termine astronomico generico, inventato dallo scrittore di 
+            fantascienza James Blish e ormai entrato nell'uso comune, per 
+            descrivere un grosso pianeta che non sia composto 
+            prevalentemente da roccia. I giganti gassosi, in realtà, possono 
+            avere un nucleo roccioso, ed effettivamente si sospetta che un 
+            tale nucleo sia necessario per la loro formazione. La maggior 
+            parte della loro massa è tuttavia presente sotto forma di gas 
+            (oppure gas compresso in uno stato liquido). A differenza dei 
+            pianeti rocciosi, i giganti gassosi non hanno una superficie 
+            ben definita.
+        </p>
+        
+        <div class="inline-planets" id="planets2">
+            <img src="./immagini/giove.png" alt="Errore: l'immagine non può essere caricata" width="380px" title="Giove">
+            <img src="./immagini/saturno.png" alt="Errore: l'immagine non può essere caricata" width="497px" title="Saturno">
+            <img src="./immagini/urano.png" alt="Errore: l'immagine non può essere caricata" width="153px" title="Urano">
+            <img src="./immagini/nettuno.png" alt="Errore: l'immagine non può essere caricata" width="151px" title="Nettuno">
+        </div>
+
+        <div class="section-center-button">
+            <a href="gassosi.html" class="default-link-button">Leggi di più su ogni pianeta</a>
+        </div>
+    </section>
+
+
+    <div class="footer">    <!-- Footer contenente le mie informazioni -->
+        <div class="footer-left">
+            <p class="footer-label">NOME</p>
+            <h3>Andrea Artuso 2FIN</h3>
+        </div>
+
+        <div class="footer-center">
+            <p class="footer-label">ANNO SCOLASTICO</p>
+            <h3>2020/2021</h3>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-label">PROGETTO</p>
+            <h3>"il mio sito" in HTML</h3>
+        </div>
+    </div>
+
+</body>
+<script>
+    let menu = document.getElementById('menu');
+    function toggleMenu(){
+        menu.classList.toggle('menu-open');
+    }
+</script>
+</html>

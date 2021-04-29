@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Sistema Solare | pianeti rocciosi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>    <!-- Header del sito -->
+        <div class="left-menu" id="menu">   <!-- Menu a comparsa -->
+            <ul>
+                <li><a href="rocciosi.html#mercurio">
+                    <img src="./immagini/mercurio.png">
+                    <h3>Mercurio</h3>
+                </a></li>
+                <li><a href="rocciosi.html#venere">
+                    <img src="./immagini/venere.png">
+                    <h3>Venere</h3>
+                </a></li>
+                <li><a href="rocciosi.html#terra">
+                    <img src="./immagini/terra.png">
+                    <h3>Terra</h3>
+                </a></li>
+                <li><a href="rocciosi.html#marte">
+                    <img src="./immagini/marte.png">
+                    <h3>Marte</h3>
+                </a></li>
+                <li><a href="gassosi.html#giove">
+                    <img src="./immagini/giove.png">
+                    <h3>Giove</h3>
+                </a></li>
+                <li><a href="gassosi.html#saturno">
+                    <img src="./immagini/saturno.png">
+                    <h3>Saturno</h3>
+                </a></li>
+                <li><a href="gassosi.html#urano">
+                    <img src="./immagini/urano.png">
+                    <h3>Urano</h3>
+                </a></li>
+                <li><a href="gassosi.html#nettuno">
+                    <img src="./immagini/nettuno.png">
+                    <h3>Nettuno</h3>
+                </a></li>
+                <li><a href="index.html">
+                    <img src="./immagini/home.png" style="width: auto;">
+                    <h3>Homepage</h3>
+                </a></li>
+            </ul>
+            <button onclick="toggleMenu()" class="close-button">    <!-- Bottone di chiusura del menu a comparsa -->
+                <span></span>
+                <span></span>
+            </button> 
+        </div>
+
+        <button class="menu-button" onclick="toggleMenu()"> <!-- Bottone di apertura del menu a comparsa -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="landing-text">
+        <h1 class="landing-title">i Pianeti Rocciosi</h1>
+        <p class="landing-paragraph">
+            Un pianeta terrestre (detto anche pianeta roccioso o pianeta 
+            tellurico) è un pianeta composto perlopiù da roccia e metalli. Il 
+            termine deriva direttamente dal nome del nostro pianeta, 
+            Terra, ed è stato adottato per indicare i pianeti del sistema 
+            solare interno in contrapposizione ai pianeti del sistema solare 
+            esterno detti giganti gassosi o (pianeti gassosi), che invece 
+            sono pianeti privi di una superficie solida, composti da una 
+            combinazione di idrogeno, elio e acqua in varie combinazioni 
+            di gas e liquido.
+        </p>
+        <a href="#mercurio" class="default-link-button">Scorri per tutte le informazioni</a>
+    </div>
+
+    <img src="./immagini/rocciosi.png" alt="Errore: l'immagine non può essere caricata" class="landing-image">
+
+    <section class="planets-container">
+        <a name="mercurio-link" id="mercurio"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/mercurio.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Mercurio</h3>
+                <p>
+                    Mercurio è il pianeta più interno del sistema solare e il più vicino al Sole. È il più piccolo e la sua orbita 
+                    è anche la più eccentrica, ovvero la meno circolare, degli otto pianeti. Mercurio orbita in senso diretto 
+                    (in senso antiorario, come tutti gli altri pianeti del Sistema Solare) a una distanza media di 0,3871 au 
+                    dal Sole con un periodo siderale di 87,969 giorni terrestri. Mercurio è anche in risonanza orbitale-
+                    rotazionale: completa tre rotazioni intorno al proprio asse ogni due orbite attorno al Sole.
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th>0,3871 au</th> </tr>
+                    <tr> <td>Massa</td> <th>3,3011 &#x2219; 10<sup>23</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>2439,7 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>5430 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>3,7 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>87,969 gg</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>58,65 gg</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>167 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>5 &#x2219; 10<sup>-15</sup> bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>0</th> </tr>
+                </table>
+            </div>
+        </div>
+
+        <a name="venere-link" id="venere"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/venere.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Venere</h3>
+                <p>
+                    Venere è il secondo pianeta del Sistema solare in ordine di distanza dal Sole con un'orbita quasi 
+                    circolare che lo porta a compiere una rivoluzione in 224,7 giorni terrestri. Prende il nome dalla dea 
+                    romana dell'amore e della bellezza e il suo simbolo astronomico è la rappresentazione stilizzata della 
+                    mano di Venere che sorregge uno specchio.
+                    Con una magnitudine massima di −4,6, è l'oggetto naturale più luminoso nel cielo notturno dopo la 
+                    Luna e per questo motivo è conosciuto fin dall'antichità. Venere è visibile soltanto poco dopo il 
+                    tramonto e poco prima dell'alba e per questa ragione è spesso stato chiamato dagli antichi Greci (e 
+                    poi dai Romani) stella della sera o stella del mattino.
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th> au</th> </tr>
+                    <tr> <td>Massa</td> <th>4,8675 &#x2219; 10<sup>24</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>6051,8 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>5243 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>8,87 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>224,701 gg</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>243,69 gg</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>464 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>92 bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>0</th> </tr>
+                </table>
+            </div>
+        </div>
+
+        <a name="terra-link" id="terra"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/terra.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Terra</h3>
+                <p>
+                    La Terra è il terzo pianeta in ordine di distanza dal Sole e il più grande dei pianeti terrestri del sistema 
+                    solare, sia per massa sia per diametro. Sulla sua superficie, si trova acqua in tutti e tre gli stati di 
+                    aggregazione (solido, liquido e gassoso) e un'atmosfera composta in prevalenza da azoto e ossigeno 
+                    che, insieme al campo magnetico che avvolge il pianeta, protegge la Terra dai raggi cosmici e dalle 
+                    radiazioni solari. Essendo l'unico corpo planetario del sistema solare adatto a sostenere la vita come 
+                    concepita e conosciuta dagli esseri umani, è l'unico luogo nel quale vivono tutte le specie viventi 
+                    conosciute.
+                    La sua formazione è datata a circa 4,54 miliardi di anni fa. La Terra possiede un satellite naturale 
+                    chiamato Luna la cui età, stimata analizzando alcuni campioni delle rocce più antiche, è risultata 
+                    compresa tra 4,29 e 4,56 miliardi di anni. L'asse di rotazione terrestre è inclinato rispetto alla 
+                    perpendicolare al piano dell'eclittica: questa inclinazione combinata con la rivoluzione della Terra 
+                    intorno al Sole causa l'alternarsi delle stagioni.
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th>1 au</th> </tr>
+                    <tr> <td>Massa</td> <th>5,9726 &#x2219; 10<sup>24</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>6371 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>5514 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>9,81 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>365,256 gg</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>23,9345 h</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>15 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>1,01325 bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>1</th> </tr>
+                </table>
+            </div>
+        </div>
+
+        <a name="marte-link" id="marte"></a>
+
+        <div class="single-planet">
+            <img src="./immagini/marte.png" alt="Errore: l'immagine non può essere caricata">
+            <div class="planet-info">
+                <h3>Marte</h3>
+                <p>
+                    Marte è il quarto pianeta del sistema solare in ordine di distanza dal Sole; è visibile a occhio nudo ed è 
+                    l'ultimo dei pianeti di tipo terrestre dopo Mercurio, Venere e la Terra. Chiamato pianeta rosso per via 
+                    del suo colore caratteristico causato dalla grande quantità di ossido di ferro che lo ricopre, Marte 
+                    prende il nome dall'omonima divinità della mitologia romana e il suo simbolo astronomico è la 
+                    rappresentazione stilizzata dello scudo e della lancia del dio.
+                </p>
+
+                <table class="planet-info-table">
+                    <tr> <td>Distanza dal sole</td> <th>1,52 au</th> </tr>
+                    <tr> <td>Massa</td> <th>6,4185 &#x2219; 10<sup>23</sup> Kg </th> </tr>
+                    <tr> <td>Raggio</td> <th>3402,45 Km</th> </tr>
+                    <tr> <td>Densità</td> <th>5430 Kg/m<sup>3</sup> </th> </tr>
+                    <tr> <td>Gravità locale</td> <th>3,69 m/s<sup>2</sup> </th> </tr>
+                    <tr> <td>Periodo orbitale</td> <th>1,880 anni</th> </tr>
+                    <tr> <td>Periodo di rotazione</td> <th>24 h 37 min 23 s</th> </tr>
+                    <tr> <td>Temperatura media</td> <th>−63 °C</th> </tr>
+                    <tr> <td>Pressione atmosferica</td> <th>0,00636 bar </th> </tr>
+                    <tr> <td>Numero di lune</td> <th>2</th> </tr>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="footer">    <!-- Footer contenente le mie informazioni -->
+        <div class="footer-left">
+            <p class="footer-label">NOME</p>
+            <h3>Andrea Artuso 2FIN</h3>
+        </div>
+
+        <div class="footer-center">
+            <p class="footer-label">ANNO SCOLASTICO</p>
+            <h3>2020/2021</h3>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-label">PROGETTO</p>
+            <h3>"il mio sito" in HTML</h3>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    let menu = document.getElementById('menu');
+    function toggleMenu(){
+        menu.classList.toggle('menu-open');
+    }
+</script>
+</html>

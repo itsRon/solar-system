@@ -27,6 +27,10 @@ h2 {
 p {
     font-size: 20px;
 }
+.default-link {
+    color: #000;
+    font-weight: 700;
+}
 .default-link-button {
     padding: 18px 40px;
     background-color: #fff;

@@ -97,6 +97,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     transform: translateX(-100%);
+    overflow: scroll;
 }
 .menu-open {
     transform: translateX(0%);

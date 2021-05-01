@@ -245,7 +245,78 @@ header {
 }
 
 
+@media screen and (max-width: 1366px) {
+    .landing-title {
+        max-width: 60%;
+    }
+    .inline-planets {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .inline-planets > * {
+        margin: 35px 0;
+    }
+}
+@media screen and (max-width: 1186px) {
+    .left-menu {
+        width: 40%;
+    }
 
+    .content-right {
+        flex-direction: column;
+    }
+    .content-right > div {
+        width: 100%;
+        text-align: center;
+        padding: 0 55px;
+    }
+    .content-right > div > p {
+        max-width: 100%;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .left-menu {
+        width: 85%;
+    }
+
+
+    .menu-button {
+        margin-left: 30px;
+    }
+    .landing-text {
+        margin: 0;
+        padding: 100px 30px 0 30px;
+    }
+    .landing-title {
+        max-width: 100%;
+        font-size: 57px;
+    }
+    .landing-paragraph {
+        max-width: 100%;
+        margin: 25px 0 55px 0;
+    }
+    .landing-image {
+        position: unset;
+        display: block;
+        box-shadow: 14px 14px 20px rgba(0, 0, 0, 36%);
+        width: 35%;
+        margin: 35px auto;
+    }
+
+    .content-image-container > img {
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 0;
+    }
+    .footer > * {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
 
 
 
@@ -288,4 +359,33 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.25);
     padding: 7px 0;
     border-radius: 6px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .planets-container {
+        margin-top: 250px;
+        padding: 50px 30px;
+    }
+    .single-planet {
+        flex-direction: column;
+        margin: 140px 0;
+    }
+
+    .single-planet > img {
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .single-planet > div {
+        margin-left: 0;
+    }
+    .planet-info-table {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .planet-info-table {
+        width: 100%;
+    }
 }

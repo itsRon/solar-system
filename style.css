@@ -326,26 +326,30 @@ header {
 /*=======================================*/
 .planets-container {
     margin-top: 250px;
-    padding: 50px 90px;
+    padding: 50px 30px;
 }
 .single-planet {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
     margin: 100px 0;
 }
 .single-planet > img {
     width: 420px;
+    float: left;
+    margin-right: 4vw;
 }
 .single-planet > div {
-    margin-left: 110px;
+    /* margin-left: 110px; */
 }
 .single-planet > div > h3 {
     font-size: 47px;
+    display: inline-block;
 }
 
 .planet-info-table {
-    width: 50%;
+    /* width: 50%; */
+    margin: auto;
 }
 .planet-info-table > tbody > tr > td {
     text-align: right;
@@ -375,7 +379,7 @@ header {
     .single-planet > img {
         width: 300px;
         display: block;
-        margin: auto;
+        /* margin: auto; */
     }
     .single-planet > div {
         margin-left: 0;
